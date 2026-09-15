@@ -1,10 +1,24 @@
+# ⚠️ LEGACY DOCUMENTATION
+
+> **This repository is now LEGACY and no longer actively maintained.**
+>
+> For **automated setup** and **zero-configuration deployment** using **podman-compose**, please refer to the updated guide:
+>
+> ### 📖 [Panduan Aktivis untuk Menyebarkan Tor Bridge Obfs4](https://docs.ricalnet.my.id/posts/panduan-aktivis-untuk-menyebarkan-tor-bridge-obfs4/)
+>
+> The new guide covers:
+> - Fully automated setup with `podman-compose`
+> - Zero-configuration deployment workflow
+> - Theoretical background on obfs4 and Tor bridges
+> - Updated best practices and security hardening
+>
+> The instructions below are kept for historical reference only and may not reflect current best practices.
+
 # Obfs4 Bridge - Docker Deployment
 
 ## Overview
 
 An obfs4 bridge is a Tor bridge that uses the obfs4 pluggable transport protocol to help users bypass internet censorship. This project provides a Docker-based deployment solution for running your own obfs4 bridge with minimal configuration.
-
-> **Reference:** [Official setup instructions](https://community.torproject.org/relay/setup/bridge/docker/)
 
 ## Prerequisites
 
